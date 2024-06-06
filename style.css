@@ -100,21 +100,13 @@ nav {
 
 /* Section */
 
-.sections-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 section {
-  width: 87rem;
+  width: 100%;
   padding: 1.75rem 1rem 1rem 1rem;
 }
 
 @media all and (max-width:425px) {
   section {
-    width: 100%;
     padding: 1rem 0;
   }
 }
